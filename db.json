@@ -1,16 +1,318 @@
 {
-  "posts":[
-    {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
-    {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
-    }
-  ]
+    "books": [
+      {
+        "id": 1,
+        "name": "Острие бритвы",
+        "author": "У.С.Моэм",
+        "pages": 392,
+        "coverURL": "",
+        "descriptionURL": "",
+        "tags": "",
+        "rating": ""
+      },
+      {
+        "id": 2,
+        "name": "Шатуны",
+        "author": "Ю.В.Мамлеев",
+        "pages": 488,
+        "coverURL": "",
+        "descriptionURL": "",
+        "tags": "",
+        "rating": ""
+      },
+      {
+        "id": 3,
+        "name": "Ключ от бездны",
+        "author": "И.Масодов",
+        "pages": 76,
+        "coverURL": "",
+        "descriptionURL": "",
+        "tags": "",
+        "rating": ""
+      },
+      {
+        "id": 4,
+        "name": "Герой нашего времени",
+        "author": "М.Ю.Лермонтов",
+        "pages": 626,
+        "coverURL": "",
+        "descriptionURL": "",
+        "tags": "",
+        "rating": ""
+      },
+      {
+        "id": 5,
+        "name": "Господин Гексоген",
+        "author": "А.А.Проханов",
+        "pages": 712,
+        "coverURL": "",
+        "descriptionURL": "",
+        "tags": "",
+        "rating": ""
+      },
+      {
+        "id": 6,
+        "name": "Лето Господне",
+        "author": "И.С.Шмелев",
+        "pages": 457,
+        "coverURL": "",
+        "descriptionURL": "",
+        "tags": "",
+        "rating": ""
+      },
+      {
+        "id": 7,
+        "name": "Дом на набережной",
+        "author": "Ю.В.Трифонов",
+        "pages": 734,
+        "coverURL": "",
+        "descriptionURL": "",
+        "tags": "",
+        "rating": ""
+      },
+      {
+        "id": 8,
+        "name": "Ноомахия",
+        "author": "А.Г.Дугин",
+        "pages": 1260,
+        "coverURL": "",
+        "descriptionURL": "",
+        "tags": "",
+        "rating": ""
+      }
+    ],
+    "speakers": [
+        {
+            "id": 1,
+            "surname": "Широков",
+            "name": "Роман",
+            "middleName": "Григорьевич"
+        },
+        {
+            "id": 2,
+            "surname": "Кашин",
+            "name": "Валерий",
+            "middleName": "Петрович"
+        },
+        {
+            "id": 3,
+            "surname": "Совенко",
+            "name": "Мария",
+            "middleName": "Геннадьевна"
+        },
+        {
+            "id": 4,
+            "surname": "Баранец",
+            "name": "Семен",
+            "middleName": "Витальевич"
+        },          
+        {
+            "id": 5,
+            "surname": "Рахимов",
+            "name": "Марат",
+            "middleName": "Тимурович"
+        },
+        {
+            "id": 6,
+            "surname": "Кайгородова",
+            "name": "Алена",
+            "middleName": "Васильевна"
+        },
+        {
+            "id": 7,
+            "surname": "Акбашев",
+            "name": "Рамиль",
+            "middleName": "Денисович"
+        },
+        {
+            "id": 8,
+            "surname": "Ли",
+            "name": "Анастасия",
+            "middleName": "Викторовна"
+        }
+    ],
+    "reports": [
+        {
+            "id": 1,
+            "reportDate": "2016-11-13",
+            "bookRating": 7,
+            "presentationURL": "",
+            "presentationVidURL":"",
+            "review":""
+        },
+        {
+            "id": 2,
+            "reportDate": "2017-04-24",
+            "bookRating": 9,
+            "presentationURL": "",
+            "presentationVidURL":"",
+            "review":""
+        },
+        {
+            "id": 3,
+            "reportDate": "2017-09-01",
+            "bookRating": 6,
+            "presentationURL": "",
+            "presentationVidURL":"",
+            "review":""
+        },
+        {
+            "id": 4,
+            "reportDate": "2018-02-14",
+            "bookRating": 8,
+            "presentationURL": "",
+            "presentationVidURL":"",
+            "review":""
+        },
+        {
+            "id": 5,
+            "reportDate": "2018-06-19",
+            "bookRating": 4,
+            "presentationURL": "",
+            "presentationVidURL":"",
+            "review":""
+        },
+        {
+            "id": 6,
+            "reportDate": "2018-12-21",
+            "bookRating": 9,
+            "presentationURL": "",
+            "presentationVidURL":"",
+            "review":""
+        },
+        {
+            "id": 7,
+            "reportDate": "2019-03-08",
+            "bookRating": 7,
+            "presentationURL": "",
+            "presentationVidURL":"",
+            "review":""
+        },
+        {
+            "id": 8,
+            "reportDate": "2019-08-30",
+            "bookRating": 6,
+            "presentationURL": "",
+            "presentationVidURL":"",
+            "review":""
+        }
+    ],
+    "meetings": [
+        {
+            "id": 1,
+            "meetingDate": "2016-11-13"
+        },
+        {
+            "id": 2,
+            "meetingDate": "2017-04-24"
+        },
+        {
+            "id": 3,
+            "meetingDate": "2017-09-01"
+        },
+        {
+            "id": 4,
+            "meetingDate": "2018-02-14"
+        },
+        {
+            "id": 5,
+            "meetingDate": "2018-06-19"
+        },
+        {
+            "id": 6,
+            "meetingDate": "2018-12-21"
+        },
+        {
+            "id": 7,
+            "meetingDate": "2019-03-08"
+        },
+        {
+            "id": 8,
+            "meetingDate": "2019-08-30"
+        }
+    ],
+    "proposals": [
+        {
+            "id": 1,
+            "proposalDate": "2016-11-13"
+        },
+        {
+            "id": 2,
+            "proposalDate": "2017-04-24"
+        },
+        {
+            "id": 3,
+            "proposalDate": "2017-09-01"
+        },
+        {
+            "id": 4,
+            "proposalDate": "2018-02-14"
+        },
+        {
+            "id": 5,
+            "proposalDate": "2018-06-19"
+        },
+        {
+            "id": 6,
+            "proposalDate": "2018-12-21"
+        },
+        {
+            "id": 7,
+            "proposalDate": "2019-03-08"
+        },
+        {
+            "id": 8,
+            "proposalDate": "2019-08-30"
+        },
+        {
+            "id": 9,
+            "proposalDate": "2021-12-18"
+        },
+        {
+            "id": 10,
+            "proposalDate": "2022-01-10"
+        },
+        {
+            "id": 11,
+            "proposalDate": "2022-01-30"
+        }
+    ],
+    "meetingPlans": [
+        {
+            "id": 1,
+            "meetingDate": "2016-11-13"
+        },
+        {
+            "id": 2,
+            "meetingDate": "2017-04-24"
+        },
+        {
+            "id": 3,
+            "meetingDate": "2017-09-01"
+        },
+        {
+            "id": 4,
+            "meetingDate": "2018-02-14"
+        },
+        {
+            "id": 5,
+            "meetingDate": "2018-06-19"
+        },
+        {
+            "id": 6,
+            "meetingDate": "2018-12-21"
+        },
+        {
+            "id": 7,
+            "meetingDate": "2019-03-08"
+        },
+        {
+            "id": 9,
+            "meetingDate": "2019-08-30"
+        },
+        {
+            "id": 10,
+            "meetingDate": "2022-01-10"
+        }
+    ]
 }
